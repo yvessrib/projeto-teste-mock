@@ -3,12 +3,28 @@ public class MockProfessorService implements ProfessorInterface {
     @Override
     public String Busca(String nomeProfessor) {
 
-        if(id == 10){
-            return ProfessorConst.SALDANHA;
+        if(nomeProfessor.equals("prof1")){
+            return ProfessorMock.prof1;
         }
 
-        if(id == 20){
-            return ProfessorConst.EGIDIO;
+        if(nomeProfessor.equals("prof2")){
+            return ProfessorMock.prof2;
+        }
+
+        if(nomeProfessor.equals("prof3")){
+            return ProfessorMock.prof3;
+        }
+
+        if(nomeProfessor.equals("prof4")){
+            return ProfessorMock.prof4;
+        }
+
+        if(nomeProfessor.equals("prof5")){
+            return ProfessorMock.prof5;
+        }
+
+        if(nomeProfessor.equals("prof6")){
+            return ProfessorMock.prof6;
         }
 
         return null;

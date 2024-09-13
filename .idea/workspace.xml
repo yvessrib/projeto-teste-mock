@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469ff419-23ac-4457-b7c3-312d2dc156c8" name="Changes" comment="" />
+    <list default="true" id="469ff419-23ac-4457-b7c3-312d2dc156c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/MockProfessorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProfessorMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TesteBuscaProfessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HorarioProfessores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BuscaProfessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Professor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lziaiPkSDvE8YHkM6fXnLsIUdG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,16 +31,47 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.TesteBuscaProfessor.executor": "Run",
+    "JUnit.TesteBuscaProfessor.testeBuscaHorarioProfessor.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yvesa/OneDrive/Documentos/GitHub/projeto-teste-mock/src/main/java"
+    "last_opened_file_path": "C:/Users/yvesa/OneDrive/Documentos/GitHub/projeto-teste-mock/src/test/java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yvesa\OneDrive\Documentos\GitHub\projeto-teste-mock\src\test\java" />
       <recent name="C:\Users\yvesa\OneDrive\Documentos\GitHub\projeto-teste-mock\src\main\java" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TesteBuscaProfessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projeto-teste-mock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteBuscaProfessor" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteBuscaProfessor.testeBuscaHorarioProfessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projeto-teste-mock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteBuscaProfessor" />
+      <option name="METHOD_NAME" value="testeBuscaHorarioProfessor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TesteBuscaProfessor" />
+        <item itemvalue="JUnit.TesteBuscaProfessor.testeBuscaHorarioProfessor" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

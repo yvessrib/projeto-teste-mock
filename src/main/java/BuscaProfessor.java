@@ -15,11 +15,14 @@ public class BuscaProfessor {
 
         JsonObject jsonObject = JsonParser.parseString(professorJson).getAsJsonObject();
 
-        return new Professor(jsonObject.get("nomeDoProfessor").getAsString(),
-                jsonObject.get("horario").getAsString(),
+        Professor professor = new Professor(jsonObject.get("nomeDoProfessor").getAsString(),
+                jsonObject.get("horarioDeAtendimento").getAsString(),
                 jsonObject.get("periodo").getAsString(),
                 jsonObject.get("sala").getAsString());
 
+        professor.setPredio(Integer.parseInt(professor.getSala()));
+
+        return professor;
     }
 
 }
